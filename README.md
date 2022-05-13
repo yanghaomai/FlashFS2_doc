@@ -20,7 +20,7 @@ Client node, data node test environment parameters:
 | client network         | 4x200G Infiniband              |
 | data server network    | 2x200G Infiniband              |
 
-OceanStor Pacific：
+[OceanStor Pacific](https://e.huawei.com/cn/products/storage/distributed-storage/oceanstor-pacific-series/oceanstor-pacific-9950)：
 | parameters              | configuration |
 | ----------------------- | ------------- |
 | capacity per OceanStor  | 188T          |
@@ -47,7 +47,8 @@ OceanStor Pacific：
 | 客户端网络     | 4x200G Infiniband              |
 | 数据服务器网络 | 2x200G Infiniband              |
 
-OceanStor Pacific参数：
+[OceanStor Pacific](https://e.huawei.com/cn/products/storage/distributed-storage/oceanstor-pacific-series/oceanstor-pacific-9950)参数：
+
 | 属性     | 参数    |
 | -------- | ------- |
 | 容量每台 | 188T    |
