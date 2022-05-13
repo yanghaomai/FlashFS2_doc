@@ -17,8 +17,7 @@ Client node, data node test environment parameters:
 | kernel version         | Linux3.10                      |
 | number of client nodes | 10                             |
 | number of data nodes   | 30                             |
-| client network         | 4x200G Infiniband              |
-| data server network    | 2x200G Infiniband              |
+| network                | 2x200G Infiniband              |
 
 [OceanStor Pacific](https://e.huawei.com/cn/products/storage/distributed-storage/oceanstor-pacific-series/oceanstor-pacific-9950)：
 | parameters              | configuration |
@@ -44,8 +43,7 @@ Client node, data node test environment parameters:
 | 内核版本       | Linux3.10                      |
 | 客户端数量     | 10                             |
 | 数据服务器数量 | 30                             |
-| 客户端网络     | 4x200G Infiniband              |
-| 数据服务器网络 | 2x200G Infiniband              |
+| 网络           | 2x200G Infiniband              |
 
 [OceanStor Pacific](https://e.huawei.com/cn/products/storage/distributed-storage/oceanstor-pacific-series/oceanstor-pacific-9950)参数：
 
