@@ -1,5 +1,60 @@
 # FlashFS2 概述
 
+## IO500-ISC22 English Version
+Schematic diagram of the test environment:
+![test-env1](./test-env.png)
+
+Client node, data node test environment parameters:
+| parameters             | configuration                  |
+| ---------------------- | ------------------------------ |
+| memory capacity        | 503G                           |
+| CPU model              | Intel(R) Xeon(R) Platinum 8358 |
+| CPU frequency          | 2.60GHz                        |
+| sockets                | 2                              |
+| cores per socket       | 32                             |
+| threads per core       | 2                              |
+| OS                     | Centos7                        |
+| kernel version         | Linux3.10                      |
+| number of client nodes | 10                             |
+| number of data nodes   | 30                             |
+| client network         | 4x200G Infiniband              |
+| data server network    | 2x200G Infiniband              |
+
+OceanStor Pacific：
+| parameters              | configuration |
+| ----------------------- | ------------- |
+| capacity per OceanStor  | 188T          |
+| bandwidth per OceanStor | 160GB/s       |
+| count                   | 2             |
+
+## IO500-ISC22 中文版
+测试环境示意图：
+![test-env2](./test-env.png)
+
+客户端节点、数据服务器测试环境参数：
+| 属性           | 配置                           |
+| -------------- | ------------------------------ |
+| 内存容量       | 503G                           |
+| CPU型号        | Intel(R) Xeon(R) Platinum 8358 |
+| CPU频率        | 2.60GHz                        |
+| CPU槽数        | 2                              |
+| 每槽核数       | 32                             |
+| 每核线程数     | 2                              |
+| 操作系统       | Centos7                        |
+| 内核版本       | Linux3.10                      |
+| 客户端数量     | 10                             |
+| 数据服务器数量 | 30                             |
+| 客户端网络     | 4x200G Infiniband              |
+| 数据服务器网络 | 2x200G Infiniband              |
+
+OceanStor Pacific参数：
+| 属性     | 参数    |
+| -------- | ------- |
+| 容量每台 | 188T    |
+| 带宽每台 | 160GB/s |
+| 个数     | 2       |
+
+
 ## 整体架构
 
 FlashFS是一个针对HPC应用程序临时部署的，高度可扩展的分布式文件系统。架构示意图如下：
@@ -142,6 +197,7 @@ RDMA采用RC连接模式，测试时在Mellanox ConnectX-6 Infiniband网络中�
 1. 启动Master节点，执行`sh run.sh master`
 2. 启动服务端节点，在数据服务器执行`sh run.sh server`
 3. 执行应用程序
+
 
 ## 交流
 
